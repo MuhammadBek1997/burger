@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url(./fonts/Gilroy/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/Gilroy/Gilroy-Light.otf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #191411;
+}
+
+header{
+    max-width: 1920px;
+    margin: 0 auto;
+    background:  url(/main_burger.png) 60% 70px no-repeat, url(/olov1.png) no-repeat , url(/olov2.png) 100% 0px  no-repeat ;
+    background-size: 60% , 40% , 25%;
+}
+.navbar{
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+.navbar button{
+    background: none;
+    color: #FFFFFF;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.hero{
+    color: #FFFFFF;
+}
+.hero-cont{
+    width: 580px;
+    height: 648px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.new-menu{
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #D3320F;
+}
+
+.hero-head{
+    font-size: 80px;
+    font-family: 'Merriweather';
+}
+.hero-p{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.menu{
+    width: 200px;
+    height: 45px;
+    background: rgb(218,128,35);
+    background: linear-gradient(90deg, rgba(218,128,35,1) 0%, rgba(226,180,56,1) 100%);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+.menu-list{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: url(/burgers_bg.png) 0px -250px no-repeat;
+    background-size: 100%;
+}
+.menu-top-text{
+    text-align: center;
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+    margin: 50px auto;
+}
+.menu-item{
+    width: 384px;
+    height: 564px;
+    background-color: #211A16;
+    border-radius: 12px;
+    padding: 40px;
+    border: 0.5px solid #75757590;
+}
+.item-head{
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    
+}
+.item-info{
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    margin: 15px 0;
+}
+.menu-item-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.price{
+    color: #FFFFFF;
+    font-size: x-large;
+    font-family: 'Gilroy';
+}
+.massa{
+    color: #757575;
+    font-family: 'Gilroy';
+}
+.order-btn{
+    width: 200px;
+    height: 45px;
+    background: rgb(218,128,35);
+    background: linear-gradient(90deg, rgba(218,128,35,1) 0%, rgba(226,180,56,1) 100%);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Gilroy';
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.order-section{
+    max-width: 1920px;
+    height: 730px;
+    margin: 0 auto;
+    position: relative;
+    background: url(/background.png) no-repeat , url(/backgroud2.png) 1050px 0px no-repeat;
+}
+.order-top-text{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 150px;
+}
+.img-box{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+.img-box img{
+    width: 500px;
+}
+.order-cont{
+    width: 370px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: 900px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.206);
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #211A16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.order-cont h3{
+    font-size: 22px;
+}
+.order-input{
+    width: 300px;
+    height: 50px;
+    border-image: linear-gradient(to right, #DA8023 0%, #E2B438 100%) 1;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3px;
+    background-color: #211A16;
+    color: #FFFFFF;
+}
+
+.orderBtn{
+    width: 300px;
+    height: 50px;
+    background: rgb(218,128,35);
+    background: linear-gradient(90deg, rgba(218,128,35,1) 0%, rgba(226,180,56,1) 100%);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.up{
+    position: sticky;
+    bottom: 0;
+    left: 100%;
+}
+.up img{
+    width: 70px;
+}
+
+footer{
+    max-width: 1920px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.social a{
+    text-decoration: none;
+}
+.social img{
+    width: 30px;
+}
