@@ -7,7 +7,7 @@ const Order = () => {
                 Buyurtma berish
             </h2>
             <div className="img-box">
-                <img src="./images/box.png" alt=""/>
+                <img src="/box.png" alt=""/>
             </div>
             <div className="order-cont">
                 <div style={{width:'250px'}}>
